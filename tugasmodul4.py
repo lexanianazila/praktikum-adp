@@ -4,7 +4,7 @@ counter = 0
 
 for i in range(n):
     for j in range(n):
-        if n % 2 != 0 and i == j == n // 2:
+        if n % 2 != 0 and i == n // 2 and j == n // 2:
             print("HORE", end="\t")
         elif i == j:
             print("1", end="\t")
@@ -13,5 +13,5 @@ for i in range(n):
         else:
             print("BOOM", end="\t")
             counter += 1
-    print()
+    print("")
 print("total BOOM =", counter)
