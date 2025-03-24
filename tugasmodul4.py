@@ -1,9 +1,9 @@
 
+counter = 0
 n = int(input("masukkan nilai n (minimal n = 4) = "))
 while n < 4 :
     print("error")
     n = int(input("masukkan nilai n (minimal n = 4) = "))
-counter = 0
 for i in range(n):
     for j in range(n):
         if n % 2 != 0 and i == n // 2 and j == n // 2 :
